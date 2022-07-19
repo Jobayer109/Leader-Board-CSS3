@@ -4,7 +4,7 @@
 /* common fonts or utilities */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ed9898;
+    background-color: #fad185;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -12,14 +12,21 @@ body {
 }
 
 
-/*-------------- top players style ------------------*/
-main {}
+/*-------------- 
+players style start
+------------------*/
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .container {
     background-color: white;
     width: 870px;
-    height: 680px;
-
+    margin-top: 20px;
     border-radius: 7px;
     padding: 30px;
 
@@ -30,6 +37,7 @@ main {}
     font-family: Verdana;
     font-weight: 900;
     font-size: 24px;
+
 }
 
 .players {
@@ -57,5 +65,102 @@ main {}
 }
 
 hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
     border: 1.5px solid #D1D1D1;
 }
+
+/*-------------- 
+players style end
+------------------*/
+
+/*-------------- 
+blogs style start
+------------------*/
+.top-blogs {
+    margin-top: 30px;
+
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    row-gap: 26px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog img {
+    width: 177px;
+
+}
+
+.blog a {
+    text-decoration: none;
+}
+
+.blog-name {
+    margin-left: 16px;
+}
+
+.auther-name {
+    margin-left: 16px;
+    color: lightgray;
+
+}
+
+/*-------------- 
+Courses style start
+------------------*/
+.courses {
+    display: flex;
+    column-gap: 30px;
+}
+
+
+.course-info img {
+    width: 250px;
+    height: 104px;
+}
+
+.course-info a {
+    text-decoration: none;
+    color: red;
+}
+
+.course-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+
+
+
+}
+
+.rating {
+    color: grey;
+    font-weight: 700;
+
+}
+
+.font {
+    color: gold;
+}
+
+.duration {
+    background-color: #f3c9b9;
+    box-sizing: border-box;
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+}
+
+
+/*-------------- 
+Courses style end
+------------------*/
