@@ -1,0 +1,61 @@
+/* fonts */
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Roboto&family=Rubik&display=swap" rel="stylesheet">main {}
+
+/* common fonts or utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ed9898;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-------------- top players style ------------------*/
+main {}
+
+.container {
+    background-color: white;
+    width: 870px;
+    height: 680px;
+
+    border-radius: 7px;
+    padding: 30px;
+
+}
+
+.section-title {
+    color: #562EFF;
+    font-family: Verdana;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    margin-top: 40px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.player-name {
+    margin-left: 15px;
+    font-family: 'Segoe UI';
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+hr {
+    border: 1.5px solid #D1D1D1;
+}
